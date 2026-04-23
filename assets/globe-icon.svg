@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" aria-label="Sauve Terre globe icon">
+  <circle cx="120" cy="120" r="108" fill="#1080C0" stroke="#1A1715" stroke-width="10"></circle>
+  <g fill="#50B040" stroke="#1A1715" stroke-width="6" stroke-linejoin="round">
+    <path d="M55,65 Q90,45 120,60 Q145,72 160,55 Q175,75 165,105 Q150,120 125,115 Q95,110 75,125 Q55,100 55,65 Z"></path>
+    <path d="M70,155 Q95,140 120,155 Q145,170 165,160 Q175,185 155,200 Q125,215 90,200 Q65,185 70,155 Z"></path>
+    <path d="M175,125 Q192,130 192,150 Q188,170 175,170 Q170,150 175,125 Z"></path>
+  </g>
+</svg>

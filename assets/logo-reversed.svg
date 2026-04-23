@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" aria-label="Sauve Terre sticker logo, reversed cream on red">
+  <defs>
+    <clipPath id="clip2"><rect x="6" y="6" width="588" height="268" rx="40" ry="40"></rect></clipPath>
+  </defs>
+  <rect x="6" y="6" width="588" height="268" rx="40" ry="40" fill="#D02020" stroke="#1A1715" stroke-width="10"></rect>
+  <g clip-path="url(#clip2)">
+    <g transform="translate(150 140)">
+      <circle r="98" fill="none" stroke="#F0E0C0" stroke-width="10"></circle>
+      <path d="M-55,-70 Q-20,-40 10,-60 Q40,-80 70,-55 Q50,-25 20,-20 Q-10,-15 -40,-30 Q-60,-45 -55,-70 Z" fill="#F0E0C0"></path>
+      <path d="M-70,20 Q-40,5 -20,25 Q0,50 25,40 Q45,30 60,55 Q30,75 0,70 Q-40,65 -70,20 Z" fill="#F0E0C0"></path>
+      <path d="M20,-10 Q35,5 30,25 Q20,40 35,55 Q20,60 5,45 Q-5,25 5,5 Q15,-5 20,-10 Z" fill="#F0E0C0"></path>
+    </g>
+    <g font-family="&#39;Alfa Slab One&#39;, &#39;Rockwell&#39;, serif" fill="#F0E0C0" font-size="92" font-weight="400">
+      <text x="270" y="130">SAUVE</text>
+      <text x="270" y="225">TERRE</text>
+    </g>
+  </g>
+</svg>
