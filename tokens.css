@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Mont Heavy";
+  src: url("/fonts/Mont-HeavyDEMO.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap");
+
+:root {
+  --creme: #f0e0c0;
+  --creme-soft: #f7ecd0;
+  --creme-deep: #e6d3a8;
+  --rouge: #d02020;
+  --rouge-deep: #a61616;
+  --rouge-soft: #e8634e;
+  --bleu: #1080c0;
+  --bleu-deep: #0a5a8a;
+  --bleu-soft: #6bbbde;
+  --vert: #50b040;
+  --vert-deep: #2e7a28;
+  --vert-soft: #a6d98a;
+  --orange: #f07a2e;
+  --orange-deep: #c85a14;
+  --noir: #1a1715;
+  --noir-soft: #3a332e;
+  --gris: #8a7f73;
+  --gris-soft: #c9bfb0;
+
+  --bg: var(--creme);
+  --bg-alt: var(--creme-soft);
+  --bg-deep: var(--creme-deep);
+  --bg-invert: var(--noir);
+  --fg: var(--noir);
+  --fg-muted: var(--noir-soft);
+  --fg-soft: var(--gris);
+  --fg-invert: var(--creme);
+  --accent: var(--rouge);
+  --accent-fg: var(--creme);
+  --link: var(--rouge);
+  --link-hover: var(--rouge-deep);
+  --border: var(--noir);
+  --border-soft: var(--gris-soft);
+  --divider: rgba(26, 23, 21, 0.12);
+
+  --font-display: "Mont Heavy", "Fjalla One", "Oswald", Impact, sans-serif;
+  --font-display-heavy: "Mont Heavy", "Anton", Impact, sans-serif;
+  --font-serif: "Fraunces", "Cochin", Georgia, serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-hand: "Caveat", "Bradley Hand", cursive;
+
+  --h1-size: clamp(2.5rem, 6vw, 5.5rem);
+  --h1-line: 0.95;
+  --h1-spacing: 0.005em;
+  --h2-size: clamp(2rem, 4vw, 3.5rem);
+  --h2-line: 1;
+  --h3-size: clamp(1.5rem, 2.6vw, 2.25rem);
+  --h3-line: 1.1;
+  --h4-size: 1.25rem;
+  --body-size: 1.0625rem;
+  --small-size: 0.9375rem;
+  --caption-size: 0.8125rem;
+  --lead-size: 1.375rem;
+  --quote-size: clamp(1.5rem, 3vw, 2.25rem);
+  --hand-size: 1.5rem;
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+  --sp-10: 128px;
+
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+
+  --border-hairline: 1px solid var(--divider);
+  --border-thin: 2px solid var(--noir);
+  --border-thick: 4px solid var(--noir);
+  --border-chunk: 6px solid var(--noir);
+
+  --shadow-sticker: 4px 4px 0 var(--noir);
+  --shadow-sticker-lg: 8px 8px 0 var(--noir);
+  --shadow-print: 6px 6px 0 var(--rouge);
+  --shadow-lift: 0 2px 0 rgba(26, 23, 21, 0.15);
+
+  --ease-out: cubic-bezier(.2, .8, .2, 1);
+  --ease-spring: cubic-bezier(.5, 1.6, .4, 1);
+  --dur-fast: 120ms;
+  --dur-base: 220ms;
+  --dur-slow: 480ms;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: var(--body-size);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+.h1 {
+  font-family: var(--font-display);
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
+  letter-spacing: var(--h1-spacing);
+  color: var(--rouge);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2,
+.h2 {
+  font-family: var(--font-display);
+  font-size: var(--h2-size);
+  line-height: var(--h2-line);
+  text-transform: uppercase;
+  color: var(--fg);
+  margin: 0;
+}
+
+h3,
+.h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: var(--h3-size);
+  line-height: var(--h3-line);
+  color: var(--fg);
+  margin: 0;
+}
+
+h4,
+.h4 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: var(--h4-size);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+p {
+  margin: 0 0 1em;
+  text-wrap: pretty;
+}
+
+.lead {
+  font-family: var(--font-serif);
+  font-size: var(--lead-size);
+  line-height: 1.4;
+}
+
+.quote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--quote-size);
+  line-height: 1.2;
+}
+
+.hand {
+  font-family: var(--font-hand);
+  font-weight: 600;
+  font-size: var(--hand-size);
+  color: var(--rouge);
+}
+
+.caption {
+  font-size: var(--caption-size);
+  color: var(--fg-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
